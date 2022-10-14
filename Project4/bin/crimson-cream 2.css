@@ -1,0 +1,26 @@
+GridPane {
+  -fx-background-color: black;
+  -fx-padding: 1 0 1 0;
+}
+
+.toggle-button {
+  -fx-background-color: black, #DDCBA4;  /* OU cream */
+  -fx-background-insets: 0, 1;
+  -fx-background-radius: 0;
+  -fx-border-width: 0;
+}
+
+.toggle-button:hover {
+  -fx-background-color: darkcyan, #DDCBA4;
+  -fx-background-insets: 0, 2;
+}
+
+.toggle-button:selected {
+  -fx-background-color: black, #841617;  /* OU crimson */
+  -fx-background-insets: 0, 1;
+}
+
+.toggle-button:selected:hover {
+  -fx-background-color: darkcyan, #841617;
+  -fx-background-insets: 0, 2;
+}
